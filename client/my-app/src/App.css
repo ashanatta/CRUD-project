@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  padding: 10px;
+  max-width: 60%;
+  margin: 20px auto;
+}
+.btn {
+  border: none;
+  padding: 7px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-add {
+  background: rgb(8, 0, 255);
+  color: white;
+}
+.addcontainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addcontainer form {
+  width: 420px;
+  background-color: rgb(229, 238, 237);
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.addcontainer form lable {
+  font-size: 21px;
+}
+.addcontainer form input {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.addcontainer form button {
+  color: antiquewhite;
+  background-color: blue;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 67%;
+  margin-right: 2%;
+  font-weight: 500;
+  border-radius: 19px;
+}
+.addcontainer form .close-btn {
+  margin-left: auto;
+  background-color: rgb(216, 216, 216);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+.tableContainer {
+  margin-top: 50px;
+  text-align: center;
+}
+.tableContainer table {
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgb(84, 84, 84);
+}
+.tableContainer table thead th {
+  background-color: rgb(17, 118, 205);
+  color: #ffffff;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table thead tr td {
+  min-width: 200px;
+  padding: 7px;
+}
+.tableContainer table tbody tr td {
+  border-bottom: 1px solid #eae6e6;
+}
+.btn-edit,
+.btn-delete {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+.btn-edit {
+  background-color: rgb(242, 255, 0);
+  color: rgb(74, 71, 67);
+}
+.btn-delete {
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+}
